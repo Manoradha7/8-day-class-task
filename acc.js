@@ -22,9 +22,9 @@ class account{
         return this.getBalance()
     }
 }
-const Mega=new account("Mano",5746,234579)
-const Arasan=new account("Radha",2314,342560)
-const Mano=new account("Veera",3245,343500)
+const Mano=new account("Mano",5746,234579)
+const Radha=new account("Radha",2314,342560)
+const Veera=new account("Veera",3245,343500)
 console.log(Radha.getBalance());
 console.log(Mano.deposit(500000));
 console.log(Veera.withdraw(50000));
